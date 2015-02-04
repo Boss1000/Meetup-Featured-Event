@@ -10,7 +10,7 @@ A few steps are necessary to customize it for your own purposes. I have labeled 
 1. You must get your Meetup API key from their website, which lets Meetup know you have access to request information.
 2. You may insert the group ID number from Meetup. Once I found this, I decided to use it instead of step 3's variable because I assumed it would be more reliably constant.
 3. You may use the group's URL name instead of its group ID. Uncomment this line and its use in forming the following string if you want to do this. Comment out the group ID lines, as well.
-- Note: You must do either 2 OR 3.
+ - Note: You must do either 2 OR 3.
 4. You may add to the extracted variables from the featured event and edit the presentation of the result.
 
 Many commented-out debug lines are available to check responses.
